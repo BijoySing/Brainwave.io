@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Import Gilroy Font */@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 600;
+}@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-semiBold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+:root {
+  --primary-color: #161C2D;
+  --secondary-color: #473BF0;
+  --red: #F64B4B;
+  --green: #68D585;
+  --navy: #473BF0;
+  --gray: #F8F9FF;
+  --card: #FFFFFF;
+  --blue-00: #F8F9FF;
+   --font-gilroy: 'Gilroy', sans-serif;
+}
