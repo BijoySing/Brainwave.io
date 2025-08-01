@@ -2,7 +2,7 @@ import React from 'react';
 import man from '../assets/man.png';
 import girl from '../assets/women.png';
 import candy from '../assets/women2.png';
-import dots from '../assets/fill2.png'; // optional dot decoration
+import dots from '../assets/fff.png'; // optional dot decoration
 
 const OurStory = () => {
     return (
