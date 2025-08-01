@@ -3,7 +3,7 @@ import bgImg from '../assets/BG.png';
 import heroimg from '../assets/hero.png';
 import wave from '../assets/waves.png';
 import round from '../assets/round.png';
-import fill from '../assets/fill 1.png';
+import fill from '../assets/fill1.png';
 import React from 'react';
 export default function Hero() {
   return (
@@ -36,9 +36,9 @@ export default function Hero() {
           <img
             src={heroimg}
             alt="Hero"
-            className=" "
+            className="z-10 "
           />
-          <div className="flex items-center justify-between mt-8">
+          <div className="flex z-0 items-center justify-between mt-8">
             <img src={wave} alt="Wave" className="absolute top-70 right-5 lg:top-85 lg:right-10" />
             <img src={round} alt="Round" className="absolute top-70 right-70 lg:top-85 lg:right-85" />
             <img src={fill} alt="Fill" className="absolute bottom-85 right-60 lg:bottom-105 lg:right-70  " />
