@@ -3,7 +3,7 @@ import bgImg from '../assets/BG.png';
 import heroimg from '../assets/hero.png';
 import wave from '../assets/waves.png';
 import round from '../assets/round.png';
-import fill from '../assets/Fill1.png';
+import fill from '../assets/fill1.png';
 import React from 'react';
 export default function Hero() {
   return (
